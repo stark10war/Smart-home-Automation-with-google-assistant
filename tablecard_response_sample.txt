@@ -1,0 +1,93 @@
+{
+  "conversationToken": "[]",
+  "finalResponse": {
+    "richResponse": {
+      "items": [
+        {
+          "simpleResponse": {
+            "textToSpeech": "here are the price list"
+          }
+        },
+        {
+          "tableCard": {
+            "title": "MyTitle",
+            "subtitle": "subtitle",
+            "image": {
+              "url": "https://images.freeimages.com/images/large-previews/72c/fox-1522156.jpg",
+              "accessibilityText": "image1"
+            },
+            "columnProperties": [
+              {
+                "header": "From"
+              },
+              {
+                "header": "To"
+              },
+              {
+                "header": "Amount"
+              }
+            ],
+            "rows": [
+              {
+                "cells": [
+                  {
+                    "text": "delhi"
+                  },
+                  {
+                    "text": "goa"
+                  },
+                  {
+                    "text": "50000"
+                  }
+                ]
+              },
+              {
+                "cells": [
+                  {
+                    "text": "mumbai"
+                  },
+                  {
+                    "text": "srinagar"
+                  },
+                  {
+                    "text": "250"
+                  }
+                ]
+              },
+              {
+                "cells": [
+                  {
+                    "text": "gujrat"
+                  },
+                  {
+                    "text": "delhi"
+                  },
+                  {
+                    "text": "24000"
+                  }
+                ]
+              }
+            ],
+            "buttons": [
+              {
+                "title": "google",
+                "openUrlAction": {
+                  "url": "https://www.google.com"
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "responseMetadata": {
+    "status": {
+      "message": "Success (200)"
+    },
+    "queryMatchInfo": {
+      "queryMatched": true,
+      "intent": "4c5dbfa8-dc2d-492c-805b-9b55130cec9e"
+    }
+  }
+}
